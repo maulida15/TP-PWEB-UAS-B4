@@ -1,0 +1,198 @@
+/*bodi rangka umum*/
+body{
+    background-image: url(home.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+/*navbar atas*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+    display: block;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+border-bottom: 3px solid blue;
+color: white;
+}
+.topnav a.active { 
+  color: white;
+  text-decoration: none;
+  display: block;
+}  
+
+/*navbar menu makanan dan minuman*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+border-bottom: 3px solid blue;
+color: white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+    border-bottom: 3px solid blue;
+color: blue;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu{
+  width: 35px;
+  height: 35px;
+}
+img {
+  width: 334px;
+  height: 200px;
+  border: 0px solid white;
+  padding: 10px;
+}
+
+/*profil*/
+.ofil{
+  font-size: 25px;
+  text-align: justify;
+  border: 2px solid rgb(122, 76, 6);
+  background-color: rgba(255, 0,0, 0.8);
+  border-radius: 50px;
+  width: 92%;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 15px;
+}
+/*about*/
+.about{
+  border: 2px solid rgb(185, 134, 86);
+  background-color: rgb(153, 106, 19);
+  border-radius: 30px;
+ width: 1150px;
+ height: 300px;
+ font-family: arial;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+/*pemesanan*/
+body{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boxprofil{
+  width: 600px;
+  height: 550px;
+ 
+  color: white;
+  left: 50%;
+  top: 65%;
+  position:absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 70px 10px;
+  
+}
+.img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 50px);
+}
+.data{
+  font-size: 30px;
+  color : red;
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+/*box booking*/
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#006bde;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(139, 134, 134);
+  padding: 20px;
+}
+.boking{
+  text-align: center;
+  font-size: 40px;
+  color: black;
